@@ -45,3 +45,7 @@ body {
     letter-spacing: 0.02;
     color: #2e2f42;
 }
+.nav-link:hover,
+.nav-link:focus,
+.contact-item > a:hover,
+.contact-item > a:focus
