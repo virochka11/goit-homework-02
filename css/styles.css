@@ -70,9 +70,11 @@ body {
 
 
 
+
+
 .footer {
-    background-color: #2e2f42;
-}
+    background: var(--main-text);
+  }
 .logo {
     font-family: Raleway, sans-serif;
     font-weight: 800;
