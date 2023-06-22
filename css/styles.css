@@ -29,9 +29,7 @@ body {
   letter-spacing: var(--ls-small);
   color: var(--main-color);
 }
-.portfolio {
-background-color: var(--main-text);
-}
+
 
 .logo {
   font-family: Raleway, sans-serif;
