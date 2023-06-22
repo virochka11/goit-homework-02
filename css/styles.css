@@ -172,7 +172,11 @@ body {
 }
 .team-list {
   background-color: #ffffff;
+} 
+.item-item {
+background-color: #FFFFFF;
 }
+
 .main-section-hero {
   color: var(--main-text);
 }
