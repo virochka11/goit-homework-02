@@ -32,6 +32,7 @@ body {
 .portfolio {
 background-color: var(--main-text);
 }
+
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 800;
@@ -92,6 +93,8 @@ background-color: var(--main-text);
 .portfolio-title {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  background-color: var(--main-text);
+
 }
 
 .portfolio-button {
