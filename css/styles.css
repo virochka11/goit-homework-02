@@ -32,9 +32,6 @@ body {
   text-decoration: none;
   color: #4d5ae5;
 }
-.dark {
- color: var(--main-text);   
-}
 
 .menu-link {
   font-family: "Roboto", sans-serif;
@@ -73,10 +70,15 @@ body {
   letter-spacing: var(--ls-small);
   color: var(--main-text);
 }
-
 .portfolio-title {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+   
+    
 
 }
+
+
 
 .portfolio-button {
   font-family: Roboto, sans-serif;
