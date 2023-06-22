@@ -55,7 +55,7 @@ body {
 .nav-link:hover,
 .nav-link:focus,
 .contact-item > a:hover .contact-item > a:focus {
-  color: #404bbf;
+  color: var(--accent-color);
 }
 .address {
   font-style: normal;
@@ -207,4 +207,7 @@ button > a:hover {
   text-align: center;
   text-transform: capitalize;
   color: var(--main-text);
+}
+.item-item {
+  background-color: #ffffff;
 }
