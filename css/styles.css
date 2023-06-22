@@ -22,6 +22,13 @@ body {
   background-color: #ffffff;
   color: #434455;
 }
+.portfolio-desc {
+    font-weight: 400;
+    font-size: var(--description-size);
+    line-height: var(--description-height);
+    letter-spacing: var(--ls-small);
+    color: var(--main-color);
+  }
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 800;
