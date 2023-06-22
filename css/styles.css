@@ -33,7 +33,7 @@ body {
   color: #4d5ae5;
 }
 .dark {
-color: var(--main-text);   
+ color: var(--main-text);   
 }
 
 .menu-link {
@@ -63,8 +63,6 @@ color: var(--main-text);
   letter-spacing: 0.02em;
   color: #434455;
 }
-.mail-item > a:hover
- 
 /* main section */
 .portfolio-subtitle {
     font-weight: 500;
