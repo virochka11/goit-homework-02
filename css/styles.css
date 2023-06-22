@@ -54,12 +54,9 @@ body {
 }
 .nav-link:hover,
 .nav-link:focus,
-.contact-item > a:hover {
-  color: #404bbf;
-}
-
+.contact-item > a:hover,
 .contact-item > a:focus {
-  color: #404bbf;
+  color: var(--action-color);
 }
 .contact-item > a {
   font-size: var(--description-size);
@@ -172,7 +169,7 @@ body {
 }
 .team-list {
   background-color: #ffffff;
-} 
+}
 .item-team {
   background-color: var(--page-color);
 }
@@ -197,9 +194,9 @@ body {
   color: #ffffff;
 }
 /* Hero */
-button > a:hover,
+.button > a:hover,
 .button > a:focus {
-  background-color: var(--action-color); 
+  background-color: var(--action-color);
   cursor: pointer;
 }
 .solution-subtitle {
