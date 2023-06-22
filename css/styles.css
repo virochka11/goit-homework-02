@@ -61,6 +61,15 @@ body {
   color: #434455;
 }
 /* main section */
+.portfolio-subtitle {
+    font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  line-height: var(--description-height);
+  letter-spacing: var(--ls-small);
+  color: var(--main-text);
+}
 
 .portfolio-button {
   font-family: Roboto, sans-serif;
