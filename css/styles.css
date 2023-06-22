@@ -133,3 +133,6 @@ body {
 .light {
     color: #f4f4fd;
 }
+.dark {
+    color: var(--main-text);
+}
