@@ -32,6 +32,9 @@ body {
   text-decoration: none;
   color: #4d5ae5;
 }
+.dark {
+color: var(--main-text);   
+}
 
 .menu-link {
   font-family: "Roboto", sans-serif;
@@ -60,6 +63,8 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.mail-item > a:hover
+ 
 /* main section */
 .portfolio-subtitle {
     font-weight: 500;
@@ -71,9 +76,9 @@ body {
   color: var(--main-text);
 }
 
-    
+.portfolio-title {
 
-
+}
 
 .portfolio-button {
   font-family: Roboto, sans-serif;
