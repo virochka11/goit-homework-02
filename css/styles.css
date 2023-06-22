@@ -54,7 +54,10 @@ body {
 }
 .nav-link:hover,
 .nav-link:focus,
-.contact-item > a:hover .contact-item > a:focus {
+.contact-item > a:hover {
+  color: #404bbf;
+}
+.contact-item > a:focus {
   color: #404bbf;
 }
 .address {
@@ -64,7 +67,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--main-color);
 }
 /* main section */
 .portfolio-subtitle {
