@@ -50,12 +50,12 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--main-text);
+  color: var(--main-color);
 }
 .nav-link:hover,
 .nav-link:focus,
 .contact-item > a:hover {
-  color: var(--action-color);
+  color: #404bbf;
 }
 
 .contact-item > a:focus {
