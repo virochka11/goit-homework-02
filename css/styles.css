@@ -145,3 +145,14 @@ body {
   text-transform: capitalize;
   color: var(--main-text);
 }
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-text);
+}
+.desc-team {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
