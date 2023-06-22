@@ -89,13 +89,14 @@ background-color: var(--main-text);
   letter-spacing: var(--ls-small);
   color: var(--main-text);
 }
+.hero {
+  background-color: var(--main-text); ;
+}
 
 .portfolio-title {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  background-color: var(--main-text);
-
-}
+  }
 
 .portfolio-button {
   font-family: Roboto, sans-serif;
