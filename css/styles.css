@@ -192,7 +192,7 @@ button > a:hover {
 }
 .solution-subtitle {
   font-weight: 500;
-  font-size: 20;
+  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-text);
@@ -200,4 +200,11 @@ button > a:hover {
 .desc-list {
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--main-text);
 }
