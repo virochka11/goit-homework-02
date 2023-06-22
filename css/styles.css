@@ -197,13 +197,9 @@ body {
   color: #ffffff;
 }
 /* Hero */
-button > a:hover {
-  background-color: #404bbf;
-}
+button > a:hover,
 .button > a:focus {
-  background-color: #404bbf;
-}
-.button {
+  background-color: var(--action-color); 
   cursor: pointer;
 }
 .solution-subtitle {
