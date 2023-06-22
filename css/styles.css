@@ -50,12 +50,12 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--main-text);
+  color: #2e2f42;
 }
 .nav-link:hover,
 .nav-link:focus,
 .contact-item > a:hover .contact-item > a:focus {
-  color: var(--accent-color);
+  color: #404bbf;
 }
 .address {
   font-style: normal;
@@ -207,7 +207,4 @@ button > a:hover {
   text-align: center;
   text-transform: capitalize;
   color: var(--main-text);
-}
-.item-item {
-  background-color: #ffffff;
 }
