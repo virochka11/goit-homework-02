@@ -96,9 +96,10 @@ body {
     text-decoration: none;
     color: #4d5ae5;
 }
-.light {
-color: #f4f4fd;
-}
+/** FOOTER */
+.footer {
+    background: var(--main-text);
+  }
 .footer-desc {
     line-height: 1.5;
     color: #f4f4fd;
