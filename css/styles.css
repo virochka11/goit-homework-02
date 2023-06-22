@@ -23,12 +23,12 @@ body {
   color: #434455;
 }
 .portfolio-desc {
-    font-weight: 400;
-    font-size: var(--description-size);
-    line-height: var(--description-height);
-    letter-spacing: var(--ls-small);
-    color: var(--main-color);
-  }
+  font-weight: 400;
+  font-size: var(--description-size);
+  line-height: var(--description-height);
+  letter-spacing: var(--ls-small);
+  color: var(--main-color);
+}
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 800;
@@ -69,26 +69,22 @@ body {
 }
 /* main section */
 .portfolio-subtitle .section-subtitle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: var(--description-height);
-    letter-spacing: var(--ls-small);
-    color: var(--main-text);
-  }
-   
+  font-weight: 500;
+  font-size: 20px;
+  line-height: var(--description-height);
+  letter-spacing: var(--ls-small);
+  color: var(--main-text);
+}
+
 .portfolio-title {
-    font-size: 36px;
-    line-height: 40px;
-    letter-spacing: var(--ls-small);
-    line-height: 1.11;
-    text-align: center;
-    text-transform: capitalize;
-    color: var(--main-text);
-  }
-   
-
-
-
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: var(--ls-small);
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--main-text);
+}
 
 .portfolio-button {
   font-family: Roboto, sans-serif;
@@ -113,7 +109,7 @@ body {
 .link {
   text-decoration: none;
 }
-
+/* LOGO */
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 800;
@@ -124,6 +120,15 @@ body {
   text-decoration: none;
   color: #4d5ae5;
 }
+.light {
+  color: #f4f4fd;
+}
+.dark {
+  color: var(--main-text);
+}
+.accent-color {
+  color: var(--accent-color);
+}
 /** FOOTER */
 .footer {
   background: var(--main-text);
@@ -132,10 +137,4 @@ body {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-}
-.light {
-    color: #f4f4fd;
-}
-.dark {
-    color: var(--main-text);
 }
