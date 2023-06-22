@@ -68,22 +68,19 @@ body {
   color: #434455;
 }
 /* main section */
-.portfolio-subtitle .section-subtitle {
+.portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   line-height: var(--description-height);
   letter-spacing: var(--ls-small);
   color: var(--main-text);
 }
 
 .portfolio-title {
-  font-size: 36px;
-  line-height: 40px;
-  letter-spacing: var(--ls-small);
-  line-height: 1.11;
-  text-align: center;
-  text-transform: capitalize;
-  color: var(--main-text);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-button {
@@ -126,9 +123,7 @@ body {
 .dark {
   color: var(--main-text);
 }
-.accent-color {
-  color: var(--accent-color);
-}
+
 /** FOOTER */
 .footer {
   background: var(--main-text);
