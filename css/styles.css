@@ -54,8 +54,7 @@ body {
 }
 .nav-link:hover,
 .nav-link:focus,
-.contact-item > a:hover,
-.contact-item > a:focus {
+.contact-item > a:hover .contact-item > a:focus {
   color: #404bbf;
 }
 .address {
@@ -171,4 +170,22 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+.button {
+  background-color: var(--accent-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+button > a:hover {
+  background-color: #404bbf;
+}
+.button > a:focus {
+  background-color: #404bbf;
+}
+.button {
+  cursor: pointer;
 }
