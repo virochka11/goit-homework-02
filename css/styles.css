@@ -50,7 +50,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(-main-text);
+  color: var(--main-color);
 }
 .nav-link:hover,
 .nav-link:focus,
@@ -194,10 +194,10 @@ body {
   color: #ffffff;
 }
 /* Hero */
-.button > a:hover,
-.button > a:focus {
+.button:hover,
+.button:focus {
   background-color: var(--action-color);
-  cursor: pointer;
+ cursor: pointer;
 }
 .solution-subtitle {
   font-weight: 500;
