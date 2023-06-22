@@ -50,15 +50,24 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--main-text);
 }
 .nav-link:hover,
 .nav-link:focus,
 .contact-item > a:hover {
-  color: #404bbf;
+  color: var(--action-color);
 }
+
 .contact-item > a:focus {
   color: #404bbf;
+}
+.contact-item > a {
+  font-size: var(--description-size);
+  line-height: var(--description-height);
+  letter-spacing: var(--ls-small);
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--main-color);
 }
 .address {
   font-style: normal;
