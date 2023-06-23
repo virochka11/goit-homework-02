@@ -30,7 +30,7 @@ body {
   color: var(--main-color);
 }
 
-
+/* LOGO */
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 800;
@@ -40,6 +40,16 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
+}
+.light {
+  color: #f4f4fd;
+}
+.dark {
+  color: var(--main-text);
+}
+
+.accent-color {
+  color: var(--accent-color);
 }
 
 .menu-link {
@@ -77,7 +87,32 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
-/* main section */
+/* Hero */
+.button:hover,
+.button:focus {
+  background-color: var(--action-color);
+ cursor: pointer;
+}
+.solution-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-text);
+}
+.desc-list {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--main-text);
+}
+
+/* MAIN SECTION */
 .portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -119,37 +154,6 @@ body {
 .link {
   text-decoration: none;
 }
-/* LOGO */
-.logo {
-  font-family: Raleway, sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #4d5ae5;
-}
-.light {
-  color: #f4f4fd;
-}
-.dark {
-  color: var(--main-text);
-}
-
-.accent-color {
-  color: var(--accent-color);
-}
-/** FOOTER */
-.footer {
-  background: var(--main-text);
-}
-.footer-desc {
-  line-height: 1.5;
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
-}
-
 .main-team {
   background-color: #f4f4fd;
 }
@@ -189,6 +193,17 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+/** FOOTER */
+.footer {
+  background: var(--main-text);
+}
+.footer-desc {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
+
+
 .button {
   background-color: var(--accent-color);
   font-family: Roboto, sans-serif;
@@ -197,28 +212,4 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-}
-/* Hero */
-.button:hover,
-.button:focus {
-  background-color: var(--action-color);
- cursor: pointer;
-}
-.solution-subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--main-text);
-}
-.desc-list {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.section-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  text-transform: capitalize;
-  color: var(--main-text);
 }
